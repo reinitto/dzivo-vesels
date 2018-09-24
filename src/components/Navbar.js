@@ -18,7 +18,7 @@ export default () => {
                   textDecoration: "underline"
                 }}
               >
-                Sporto Vesals <strong> - </strong>{" "}
+                Sporto Vesels <strong> - </strong>{" "}
                 <b style={{ color: "#026f89" }}>Dzīvo Labāk</b>
               </h5>
             </Link>

@@ -17,7 +17,7 @@ import Trenini from "./components/articles/Trenini";
 
 class App extends Component {
   componentDidMount() {
-    document.title = "Sporto Vesals - Dzīvo Labāk";
+    document.title = "Sporto Vesels - Dzīvo Labāk";
   }
   render() {
     return (
