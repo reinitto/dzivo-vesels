@@ -16,12 +16,9 @@ const footerStyle = {
 
 export default () => {
   return (
-    <footer
-      className="page-footer row no-display
-      "
-    >
-      <div className="container-fluid borderFooter " style={footerStyle}>
-        <div className="col-sm-4 footerDivs">
+    <footer className="no-display container-fluid ">
+      <div className="borderFooter row " style={footerStyle}>
+        <div className="col-sm-4 footerDivs ">
           <div
             style={{
               display: "flex"

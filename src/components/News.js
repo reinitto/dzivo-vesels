@@ -14,7 +14,7 @@ import img16 from "../img/16s.jpg";
 
 export default () => {
   return (
-    <div>
+    <div className="container-fluid">
       <div className=" row">
         <div className="col-md-10 col-md-offset-1">
           <section className="publicaciones-blog-home">
