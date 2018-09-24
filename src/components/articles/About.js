@@ -1,6 +1,6 @@
 import React from "react";
 import "../News.css";
-import normunds from "../../img/nr_3.jpg";
+import normunds from "../../img/nr_31.jpg";
 import ArticleLayout from "./ArticleLayout";
 
 const boldFont = {
