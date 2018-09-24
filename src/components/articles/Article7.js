@@ -1,6 +1,6 @@
 import React from "react";
 import img15 from "../../img/15m.jpg";
-import diagram from "../../img/diagram.jpg";
+import diagram from "../../img/diagram1.jpg";
 import ArticleLayout from "./ArticleLayout";
 
 const headerStyle = {
