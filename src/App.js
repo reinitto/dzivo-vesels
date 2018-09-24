@@ -16,6 +16,9 @@ import About from "./components/articles/About";
 import Trenini from "./components/articles/Trenini";
 
 class App extends Component {
+  componentDidMount() {
+    document.title = "Sporto Vesals - Dzīvo Labāk";
+  }
   render() {
     return (
       <Router>
