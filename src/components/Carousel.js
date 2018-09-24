@@ -149,7 +149,7 @@ export default () => {
                           pat 20 minūtes dienā...
                         </p>
                         <a
-                          href="/Article4"
+                          href="/Article5"
                           type="button"
                           className=" carousel-button"
                         >
