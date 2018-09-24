@@ -1,10 +1,10 @@
 import React from "react";
-import img10 from "../img/10.jpg";
-import img3 from "../img/3.jpg";
-import img12 from "../img/12.jpg";
-import img13 from "../img/13.jpg";
-import img16 from "../img/16.jpg";
-import img19 from "../img/19.jpg";
+import img10 from "../img/10m.jpg";
+import img3 from "../img/3m.jpg";
+import img12 from "../img/12m.jpg";
+import img13 from "../img/13m.jpg";
+import img16 from "../img/16m.jpg";
+import img19 from "../img/19m.jpg";
 
 import "./Carousel.css";
 var Carousel = require("react-bootstrap").Carousel;

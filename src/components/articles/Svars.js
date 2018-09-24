@@ -1,5 +1,5 @@
 import React from "react";
-import img10 from "../../img/10.jpg";
+import img10 from "../../img/10m.jpg";
 
 import ArticleLayout from "./ArticleLayout";
 
