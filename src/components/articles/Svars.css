@@ -1,0 +1,22 @@
+p {
+  font: 300 14px/20px "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #241f1d;
+  font-family: "Open Sans Condensed", "Helvetica Neue", Arial, Helvetica,
+    sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: uppercase;
+}
