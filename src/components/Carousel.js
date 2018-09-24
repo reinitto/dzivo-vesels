@@ -36,7 +36,7 @@ export default () => {
                           type="button"
                           className=" carousel-button"
                         >
-                          Lasit Talak
+                          Lasīt Tālāk
                         </a>
                       </div>
                     </div>
@@ -68,7 +68,7 @@ export default () => {
                           type="button"
                           className=" carousel-button"
                         >
-                          Lasit Talak
+                          Lasīt Tālāk
                         </a>
                       </div>
                     </div>
@@ -96,7 +96,7 @@ export default () => {
                           type="button"
                           className=" carousel-button"
                         >
-                          Lasit Talak
+                          Lasīt Tālāk
                         </a>
                       </div>
                     </div>
@@ -122,7 +122,7 @@ export default () => {
                           type="button"
                           className=" carousel-button"
                         >
-                          Lasit Talak
+                          Lasīt Tālāk
                         </a>
                       </div>{" "}
                     </div>
@@ -153,7 +153,7 @@ export default () => {
                           type="button"
                           className=" carousel-button"
                         >
-                          Lasit Talak
+                          Lasīt Tālāk
                         </a>
                       </div>
                     </div>
@@ -183,7 +183,7 @@ export default () => {
                           type="button"
                           className=" carousel-button"
                         >
-                          Lasit Talak
+                          Lasīt Tālāk
                         </a>
                       </div>
                     </div>

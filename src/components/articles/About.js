@@ -14,7 +14,7 @@ const headerStyle = {
 export default () => {
   return (
     <ArticleLayout>
-      <h1 style={headerStyle}>Normunds Rozensteins</h1>
+      <h1 style={headerStyle}>Normunds Rozenšteins</h1>
       <img src={normunds} className="img-responsive" alt="" />
 
       <ul className="list-group" style={boldFont}>
@@ -106,10 +106,8 @@ export default () => {
         traucējumi palikuši. Ceru arī ar tiem tik ar laiku galā.
       </p>
       <p>Esmu atgriezies dzīvē.</p>
-      <p style={boldFont}>
-        Kontaktinformācija: Tel. +371 27841853 E-pasts:
-        fitnesakonsultants@inbox.lv
-      </p>
+      <p style={boldFont}>Kontaktinformācija: Tel. +371 27841853</p>
+      <p style={boldFont}> E-pasts: fitnesakonsultants@inbox.lv</p>
     </ArticleLayout>
   );
 };

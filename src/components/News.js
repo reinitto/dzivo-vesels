@@ -41,7 +41,7 @@ export default () => {
                       </p>
                     </div>
                     <div className="mascara-enlace-blog-home">
-                      <span>Lasit</span>
+                      <span>Lasīt</span>
                     </div>
                   </a>
                 </div>
@@ -65,7 +65,7 @@ export default () => {
                       </p>
                     </div>
                     <div className="mascara-enlace-blog-home">
-                      <span>Lasit</span>
+                      <span>Lasīt</span>
                     </div>
                   </a>
                 </div>
@@ -86,7 +86,7 @@ export default () => {
                       </p>
                     </div>
                     <div className="mascara-enlace-blog-home">
-                      <span>Lasit</span>
+                      <span>Lasīt</span>
                     </div>
                   </a>
                 </div>
@@ -106,7 +106,7 @@ export default () => {
                       </p>
                     </div>
                     <div className="mascara-enlace-blog-home">
-                      <span>Lasit</span>
+                      <span>Lasīt</span>
                     </div>
                   </a>
                 </div>
@@ -126,7 +126,7 @@ export default () => {
                       </p>
                     </div>
                     <div className="mascara-enlace-blog-home">
-                      <span>Lasit</span>
+                      <span>Lasīt</span>
                     </div>
                   </a>
                 </div>
@@ -145,7 +145,7 @@ export default () => {
                       </p>
                     </div>
                     <div className="mascara-enlace-blog-home">
-                      <span>Lasit</span>
+                      <span>Lasīt</span>
                     </div>
                   </a>
                 </div>
@@ -166,7 +166,7 @@ export default () => {
                       </p>
                     </div>
                     <div className="mascara-enlace-blog-home">
-                      <span>Lasit</span>
+                      <span>Lasīt</span>
                     </div>
                   </a>
                 </div>
@@ -187,7 +187,7 @@ export default () => {
                       </p>
                     </div>
                     <div className="mascara-enlace-blog-home">
-                      <span>Lasit</span>
+                      <span>Lasīt</span>
                     </div>
                   </a>
                 </div>
@@ -207,7 +207,7 @@ export default () => {
                       </p>
                     </div>
                     <div className="mascara-enlace-blog-home">
-                      <span>Lasit</span>
+                      <span>Lasīt</span>
                     </div>
                   </a>
                 </div>
@@ -227,7 +227,7 @@ export default () => {
                       </p>
                     </div>
                     <div className="mascara-enlace-blog-home">
-                      <span>Lasit</span>
+                      <span>Lasīt</span>
                     </div>
                   </a>
                 </div>

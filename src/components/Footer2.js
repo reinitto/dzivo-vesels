@@ -48,7 +48,7 @@ export default () => {
         </div>
         <div className="col-sm-4 midDiv" style={footerDivStyles}>
           <a href="/">Sākums</a>
-          <a href="/Trenini">Individualie treniņi</a>
+          <a href="/Trenini">Individuālie treniņi</a>
           <a href="/Konsultacijas">Konsultācijas</a>
           <a href="/Article2">Atsauksmes</a>
         </div>

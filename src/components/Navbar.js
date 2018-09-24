@@ -28,7 +28,7 @@ export default () => {
         <Navbar.Collapse>
           <Nav pullRight className=" navbar-right">
             <NavItem eventKey={1} href="/Trenini">
-              <h5>Individualie treniņi</h5>
+              <h5>Individuālie treniņi</h5>
             </NavItem>
             <NavItem eventKey={3} href="/Konsultacijas">
               <h5>Konsultācijas</h5>
