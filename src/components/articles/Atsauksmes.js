@@ -2,7 +2,7 @@ import React from "react";
 import "../News.css";
 import arta1 from "../../img/arta1.jpg";
 import arta2 from "../../img/arta2.jpg";
-import arta3 from "../../img/arta3.jpg";
+import arta3 from "../../img/arta31.jpg";
 import arta4 from "../../img/arta4.jpg";
 import raimonds from "../../img/raimonds.JPG";
 import ArticleLayout from "./ArticleLayout";

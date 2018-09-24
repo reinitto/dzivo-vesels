@@ -1,8 +1,8 @@
 import React from "react";
 import "../News.css";
-import img3 from "../../img/3.jpg";
+import img3 from "../../img/3m.jpg";
 
-import img12 from "../../img/12.jpg";
+import img12 from "../../img/12m.jpg";
 import img17 from "../../img/17m.jpg";
 import img16 from "../../img/16m.jpg";
 export default () => {

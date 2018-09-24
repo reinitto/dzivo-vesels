@@ -19,7 +19,7 @@ export default () => {
                 }}
               >
                 Sporto Vesals <strong> - </strong>{" "}
-                <b style={{ color: "#026f89" }}>Dzīvo Labak</b>
+                <b style={{ color: "#026f89" }}>Dzīvo Labāk</b>
               </h5>
             </Link>
           </Navbar.Brand>

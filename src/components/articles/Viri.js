@@ -1,5 +1,5 @@
 import React from "react";
-import img12 from "../../img/12.jpg";
+import img12 from "../../img/12m.jpg";
 import ArticleLayout from "./ArticleLayout";
 
 const headerStyle = {
