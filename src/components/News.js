@@ -6,7 +6,7 @@ import monitor from "../img/monitor.jpg";
 import img3s from "../img/3s.jpg";
 
 import img12 from "../img/12s.jpg";
-import nr3 from "../img/nr_3.jpg";
+import nr3 from "../img/nr_31.jpg";
 import img17 from "../img/17s.jpg";
 import img13 from "../img/13s.jpg";
 import img15 from "../img/15s.jpg";
