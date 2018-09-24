@@ -1,6 +1,6 @@
 import React from "react";
 import "./News.css";
-import img10 from "../img/10s.jpg";
+import img10 from "../img/22s.jpg";
 import img11 from "../img/11s.jpg";
 import monitor from "../img/monitor.jpg";
 import img3s from "../img/3s.jpg";
