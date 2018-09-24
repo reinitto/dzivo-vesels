@@ -1,6 +1,6 @@
 import React from "react";
 import "./News.css";
-import img10 from "../img/22s.jpg";
+import img22s from "../img/22s.jpg";
 import img11 from "../img/11s.jpg";
 import monitor from "../img/monitor.jpg";
 import img3s from "../img/3s.jpg";
@@ -26,7 +26,7 @@ export default () => {
                 <div className="col-page col-sm-8 col-md-6">
                   <a href="/Article1" className="black fondo-publicacion-home">
                     <div className="img-publicacion-principal-home">
-                      <img className="" src={img10} alt="" />
+                      <img className="" src={img22s} alt="" />
                     </div>
                     <div className="contenido-publicacion-principal-home">
                       <h3>Uzsākam treniņus - kas notiek ar svaru ?</h3>

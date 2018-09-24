@@ -1,6 +1,7 @@
 import React from "react";
 import "../News.css";
 import arta1 from "../../img/arta1.jpg";
+import img3m from "../../img/3m.jpg";
 import arta2 from "../../img/arta2.jpg";
 import arta3 from "../../img/arta31.jpg";
 import arta4 from "../../img/arta4.jpg";
@@ -25,6 +26,7 @@ export default () => {
   return (
     <ArticleLayout>
       <h1 style={headerStyle}>Atsauksmes</h1>
+      <img src={img3m} className="img-responsive" alt="" />
       <h2>Atsauksme</h2>
       <div className="container-fluid " style={imgStyle}>
         <img src={arta1} style={{ maxHeight: "200px" }} alt="" />
