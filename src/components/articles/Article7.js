@@ -1,26 +1,12 @@
 import React from "react";
 import img15 from "../../img/15.jpg";
 import diagram from "../../img/diagram.JPG";
-
 import ArticleLayout from "./ArticleLayout";
-
-const boldFont = {
-  fontWeight: "bold"
-};
 
 const headerStyle = {
   textAlign: "center"
 };
 
-const imgStyle = {
-  justifyContent: "space-around",
-  display: "flex",
-  marginBottom: "10px"
-};
-const imgStyle2 = {
-  justifyContent: "space-around",
-  marginBottom: "10px"
-};
 export default () => {
   return (
     <ArticleLayout>
