@@ -34,9 +34,7 @@ export default () => {
                         Kas par svaru pieaug sākumā – vai tie ir muskuļi? Bieži
                         vien iesācējiem ir neliels svara pieaugums pirmajās 2 -
                         3 nedēļās, līdz pat 2 kilogramiem. Vairumā tas ir
-                        noderīgais svara pieaugums, kurš, turpinot nodarbības,
-                        pazudīs, jo, uzsākot treniņus, organisms muskuļos
-                        palielina ūdens rezerves, lai
+                        noderīgais svara pieaugums, kurš, turpinot nodarbības
                         <span>...</span>
                       </p>
                     </div>
@@ -45,7 +43,7 @@ export default () => {
                     </div>
                   </a>
                 </div>
-                <div className="col-page col-sm-4 col-md-3">
+                <div className="col-page col-sm-4 col-md-3 ">
                   <a href="/Article2" className="fondo-publicacion-home">
                     <div className="img-publicacion-home">
                       <img className="img-responsive" src={img3s} alt="" />
@@ -57,10 +55,7 @@ export default () => {
                         <br />
                         Nosūtu Jums jau sen solītās fotogrāfijas, kā arī gribēju
                         pateikt paldies par atbalstu manu mērķu sasniegšanā (-40
-                        kg).
-                        <br />
-                        Nu jau ir pagājis labs laiciņš kopš man jāiztiek bez
-                        Jūsu palīdzības, bet es turpinu ievērot Jūsu
+                        kg)
                         <span>...</span>
                       </p>
                     </div>
@@ -69,7 +64,7 @@ export default () => {
                     </div>
                   </a>
                 </div>
-                <div className="col-page col-sm-4 col-md-3">
+                <div className="col-page col-sm-4 col-md-3 ">
                   <a href="/Article3" className="fondo-publicacion-home">
                     <div className="img-publicacion-home">
                       <img className="img-responsive" src={img12} alt="" />
@@ -79,9 +74,7 @@ export default () => {
                       <p>
                         Dūšīgs! Tā sakām par kāda vīrieša varēšanu, darbaspējām
                         un saņemšanos. Sakām – dūšīgs dažreiz arī par lielu
-                        vēdera apkārtmēru, lai nebūtu jāsaka ka resns. Kāds var
-                        apvainoties. Šoruden gribu paslavēt dūšīgos vīrus. Divi,
-                        kas saņēmās, atnāca pie manis
+                        vēdera apkārtmēru, lai nebūtu jāsaka
                         <span>...</span>
                       </p>
                     </div>
@@ -90,7 +83,7 @@ export default () => {
                     </div>
                   </a>
                 </div>
-                <div className="col-page col-sm-4 col-md-3">
+                <div className="col-page col-sm-4 ">
                   <a href="/Article4" className="fondo-publicacion-home">
                     <div className="img-publicacion-home">
                       <img className="img-responsive" src={img16} alt="" />
@@ -101,7 +94,6 @@ export default () => {
                         Fiziskās nodarbības, kā zināms, veicina laimes hormonu –
                         endorfīnu izdalīšanos, samazina trauksmes līmeni, vairo
                         darba spējas un nostiprina veselību. Tad kādēļ tomēr mēs
-                        nestāvam garā rindā pēc šiem labumiem, un
                         <span>...</span>
                       </p>
                     </div>
@@ -110,7 +102,7 @@ export default () => {
                     </div>
                   </a>
                 </div>
-                <div className="hidden-sm col-page col-sm-4 col-md-3">
+                <div className="hidden-sm col-page col-sm-4 ">
                   <a href="/Article5" className="fondo-publicacion-home">
                     <div className="img-publicacion-home">
                       <img className="img-responsive" src={img17} alt="" />
@@ -120,8 +112,7 @@ export default () => {
                       <p>
                         Tievēšana būs kā rotaļa, viegli sasniegsiet iecerēto,
                         jutīsiet enerģijas pieplūdumu, ja jūs ievērosiet dažus
-                        vienkāršus, bet svarīgus nosacījumus. Pirmkārt -
-                        pārlieku neiespringsiet ar domu par tievēšanu. Otrkārt
+                        vienkāršus, bet svarīgus nosacījumus. Pirmkārt
                         <span>...</span>
                       </p>
                     </div>
@@ -130,7 +121,7 @@ export default () => {
                     </div>
                   </a>
                 </div>
-                <div className="hidden-sm col-page col-sm-4 col-md-3">
+                <div className="hidden-sm col-page col-sm-4 ">
                   <a href="/Article6" className="fondo-publicacion-home">
                     <div className="img-publicacion-home">
                       <img className="img-responsive" src={img13} alt="" />
@@ -140,7 +131,7 @@ export default () => {
                       <p>
                         Pagājušogad jūnija sākumā pie manis ar lūgumu pēc
                         palīdzības tikt galā ar liekajiem kilogramiem pieteicās
-                        Inita ( vārds mainīts). Jaunā sieviete ( 33
+                        Inita
                         <span>...</span>
                       </p>
                     </div>
@@ -149,7 +140,7 @@ export default () => {
                     </div>
                   </a>
                 </div>
-                <div className="col-page col-sm-4 col-md-3">
+                <div className="col-page col-sm-4 ">
                   <a href="/Article7" className="fondo-publicacion-home">
                     <div className="img-publicacion-home">
                       <img className="img-responsive" src={img15} alt="" />
@@ -160,8 +151,6 @@ export default () => {
                         Medicīnā lieto terminu Metabolais sindroms, lai
                         raksturotu pacienta palēnināto vielmaiņu, kuras viena no
                         izpausmēm ir pieņemšanās svarā. Bet, turpinoties svara
-                        pieaugumam, attīstās daudz citas kaites – cukura
-                        diabēts, sirds mazspēja
                         <span>...</span>
                       </p>
                     </div>
@@ -170,7 +159,7 @@ export default () => {
                     </div>
                   </a>
                 </div>
-                <div className="col-page col-sm-4 col-md-3">
+                <div className="col-page col-sm-4 ">
                   <a href="/Forma" className="fondo-publicacion-home">
                     <div className="img-publicacion-home">
                       <img className="img-responsive" src={img11} alt="" />
@@ -181,8 +170,6 @@ export default () => {
                         Būt labā fiziskajā formā! Kā pie tās tikt? Nemitīgi kāds
                         Stokholmas brīnums piedāvā nomest 8 kilogramus dažu
                         dienu laikā, lasām kā ar sešiem vingrinājumiem iegūt
-                        tvirtu vidukli. Nupat skan aicinājumi uz augstas
-                        intensitātes treniņiem. Dzirdam apsvērumus
                         <span>...</span>
                       </p>
                     </div>
@@ -191,7 +178,7 @@ export default () => {
                     </div>
                   </a>
                 </div>
-                <div className="col-page col-sm-4 col-md-3">
+                <div className="col-page col-sm-4 ">
                   <a href="/About" className="fondo-publicacion-home">
                     <div className="img-publicacion-home">
                       <img className="img-responsive" src={nr3} alt="" />
@@ -212,7 +199,7 @@ export default () => {
                   </a>
                 </div>
 
-                <div className="col-page col-sm-4 col-md-3">
+                <div className="col-page col-sm-4 ">
                   <a href="/Monitors" className="fondo-publicacion-home">
                     <div className="img-publicacion-home">
                       <img className="img-responsive" src={monitor} alt="" />
@@ -223,7 +210,8 @@ export default () => {
                         Izmantojot Veselības monitoru* iespējams sekot kā mainās
                         ķermeņa svars, apkārtmēri, muskuļu masa, tauki un ūdens
                         daudzums. Sportistiem, treneriem tas uzskatāmi sniedz
-                        informāciju par procesiem organismā, u<span>...</span>
+                        informāciju
+                        <span>...</span>
                       </p>
                     </div>
                     <div className="mascara-enlace-blog-home">

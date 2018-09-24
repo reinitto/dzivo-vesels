@@ -1,5 +1,6 @@
 import React from "react";
 
+import img23 from "../img/23m.jpg";
 import ArticleLayout from "./articles/ArticleLayout";
 const headerStyle = {
   textAlign: "center"
@@ -11,17 +12,18 @@ export default () => {
   return (
     <ArticleLayout>
       <h1 style={headerStyle}>
-        VESELĪBAS VEICINĀŠANAS UN FIZISKĀS SAGATAVOTĪBAS KONSULTĀCIJAS
+        Veselības veicināšanas un fiziskās sagatavotības konsultācijas
       </h1>
-      <h2>KONSULTĀCIJU SATURĀ :</h2>
+      <img src={img23} className="img-responsive" alt="" />
+      <h2>Konsultāciju saturā :</h2>
       <p>
-        <strong>1.FIZISKĀS FORMAS NOVĒRTĒŠANA</strong>
+        <strong>1.fiziskās formas novērtēšana</strong>
         Veicot diagnostiku*, pārrunās tiks objektīvi novērtēta jūsu fiziskā
         forma.
       </p>
       <p>
         {" "}
-        <strong>2. NODARBĪBU UN UZTURA PLĀNA IETEIKUMI</strong>
+        <strong>2. Nodarbību un uztura plāna IETEIKUMI</strong>
         Saņemsiet ieteikumus par piemērotākajām nodarbībām ,slodzēm un
         paškontroli. Uztura plāns saturēs aprēķināto jums nepieciešamo uztura
         kaloriju daudzumu un 12 punktu programmu ar ieteikumiem kā pakāpeniski
@@ -38,7 +40,7 @@ export default () => {
         konsultācijas, sekojot rezultātiem un koriģējot plānus pēc vajadzības,
         aizvien stiprināsiet iemaņas un uzlabosiet formu.
       </p>{" "}
-      <h2>CENAS :</h2>
+      <h2>Cenas: </h2>
       <p>
         <strong>1.Pamata konsultācija</strong>– 60 min, cena = 30 EUR{" "}
       </p>

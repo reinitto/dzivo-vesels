@@ -1,10 +1,4 @@
 .borderFooter {
-  display: flex;
-  align-items: stretch;
-  border-color: #026f89;
-  border-width: 3.3px;
-  border-style: outset;
-  /* border-bottom: 0; */
   background-color: white;
   background: #ffffff;
   border-color: #026f89;
@@ -14,7 +8,6 @@
   text-decoration: none;
   position: relative;
   border-width: 3.3px;
-
   border-right: 0;
   border-left: 0;
   border-bottom: 0;
@@ -40,9 +33,9 @@
 .midDiv {
   border-width: 2px;
   border-style: dashed;
-
   border-top: 0;
   border-bottom: 0;
+  margin: 6px 6px;
 }
 
 .list-group-item {
@@ -53,5 +46,11 @@
 @media screen and (max-width: 768px) {
   .no-display {
     display: none;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .midDiv {
+    border-style: none;
   }
 }

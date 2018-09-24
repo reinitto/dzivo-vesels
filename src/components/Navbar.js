@@ -7,12 +7,15 @@ var NavItem = require("react-bootstrap").NavItem;
 
 export default () => {
   return (
-    <div className="container-fluid border">
+    <div
+      className="container-fluid border no-wrap"
+      style={{ display: "flex", justifyContent: "center" }}
+    >
       <Navbar collapseOnSelect className="white">
         <Navbar.Header>
           <Navbar.Brand>
             <Link to="/">
-              <h5
+              <h4
                 style={{
                   fontWeight: 500,
                   textDecoration: "underline"
@@ -20,7 +23,7 @@ export default () => {
               >
                 Sporto Vesels <strong> - </strong>{" "}
                 <b style={{ color: "#026f89" }}>Dzīvo Labāk</b>
-              </h5>
+              </h4>
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle />
@@ -28,14 +31,14 @@ export default () => {
         <Navbar.Collapse>
           <Nav pullRight className=" navbar-right">
             <NavItem eventKey={1} href="/Trenini">
-              <h5>Individuālie treniņi</h5>
+              <h4>Individuālie treniņi</h4>
             </NavItem>
             <NavItem eventKey={3} href="/Konsultacijas">
-              <h5>Konsultācijas</h5>
+              <h4>Konsultācijas</h4>
             </NavItem>
             <NavItem eventKey={2} href="/About">
-              <h5> Par mani</h5>
-            </NavItem>
+              <h4> Par mani</h4>
+            </NavItem>{" "}
             <NavItem
               eventKey={3}
               target="_blank"

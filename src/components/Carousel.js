@@ -129,13 +129,13 @@ export default () => {
                   </Carousel.Caption>
                 </div>
               </Carousel.Item>
+
               <Carousel.Item>
                 <img width="auto" height="auto" alt="900x500" src={img17m} />
                 <div className="absolute-div">
                   <Carousel.Caption>
                     <div className="col-md-8 col-sm-12 ">
-                      <h1>Tievēšana kā rotaļa </h1>
-
+                      <h1>Tievēšana kā rotaļa</h1>{" "}
                       <div className="col-xs-6 col-sm-6">
                         <p>
                           Tievēšana būs kā rotaļa, viegli sasniegsiet iecerēto,
@@ -149,13 +149,13 @@ export default () => {
                           pat 20 minūtes dienā...
                         </p>
                         <a
-                          href="/Article5"
+                          href="/Article4"
                           type="button"
                           className=" carousel-button"
                         >
                           Lasīt Tālāk
                         </a>
-                      </div>
+                      </div>{" "}
                     </div>
                   </Carousel.Caption>
                 </div>
@@ -165,8 +165,7 @@ export default () => {
                 <div className="absolute-div">
                   <Carousel.Caption>
                     <div className="col-md-8 col-sm-12 ">
-                      <h1>Vienas vasaras veiksmes stāsts</h1>
-
+                      <h1>Vienas vasaras veiksmes stāsts</h1>{" "}
                       <div className="col-xs-6 col-sm-6">
                         <p>
                           Pagājušogad jūnija sākumā pie manis ar lūgumu pēc
@@ -175,17 +174,16 @@ export default () => {
                           ) strādājot atbildīgā darbā bija sākusi pieņemties
                           svarā, bet kad bija jāpaliek mājās ar bērniņu, kam
                           sašūpojās veselība , liekais svars turpināja pieaugt,
-                          spēki samazināties, pašsajūta pasliktināties. Svars
-                          bija pieaudzis līdz 93 kilogramiem...
+                          spēki samazināties...
                         </p>
                         <a
-                          href="/Article6"
+                          href="/Article4"
                           type="button"
                           className=" carousel-button"
                         >
                           Lasīt Tālāk
                         </a>
-                      </div>
+                      </div>{" "}
                     </div>
                   </Carousel.Caption>
                 </div>

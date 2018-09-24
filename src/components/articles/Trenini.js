@@ -14,7 +14,7 @@ export default () => {
       <h1 style={headerStyle}>Treniņu kursi</h1>
 
       <img src={img21} className="img-responsive" alt="" />
-      <h2>LABAS FIZISKĀS SAGATAVOTĪBAS KURSS</h2>
+      <h2>Labas fiziskās sagatavotības kurss</h2>
       <p>
         Individuālas nodarbības Sertificēta fiziskās sagatavotības trenera
         Mag.paed. Normunda Rozenšteina vadībā Plānojot uzsākt ko jaunu - noderēs

@@ -9,13 +9,18 @@ const footerDivStyles = {
   flexDirection: "column"
 };
 
+const footerStyle = {
+  display: "flex",
+  justifyContent: "space-around"
+};
+
 export default () => {
   return (
     <footer
       className="page-footer row no-display
-     "
+      "
     >
-      <div className="container-fluid borderFooter">
+      <div className="container-fluid borderFooter " style={footerStyle}>
         <div className="col-sm-4 footerDivs">
           <div
             style={{
@@ -23,15 +28,20 @@ export default () => {
             }}
           >
             <a href="/about">
-              <img src={profile} alt="" style={{ maxHeight: "150px" }} />
+              <img src={profile} alt="" className="img-responsive" />
             </a>
             <ul className="list-group">
-              <li className="list-group-item">Normunds Rozenšteins</li>
+              <li className="list-group-item">
+                {" "}
+                <strong>Normunds Rozenšteins</strong>{" "}
+              </li>
 
               <li className="list-group-item">
-                Personīgais treneris / Fitnesa konsultants
+                <strong>Personīgais treneris / Fitnesa konsultants</strong>
               </li>
-              <li className="list-group-item"> +371 27841853</li>
+              <li className="list-group-item">
+                <strong> +371 27841853</strong>{" "}
+              </li>
               <li className="list-group-item">
                 <a
                   href="mailto:fitnesakonsultants@inbox.lv"
@@ -39,7 +49,7 @@ export default () => {
                   rel="noopener noreferrer"
                 >
                   {" "}
-                  fitnesakonsultants@inbox.lv
+                  <strong>fitnesakonsultants@inbox.lv</strong>
                 </a>
               </li>
             </ul>
@@ -47,10 +57,19 @@ export default () => {
           </div>
         </div>
         <div className="col-sm-4 midDiv" style={footerDivStyles}>
-          <a href="/">Sākums</a>
-          <a href="/Trenini">Individuālie treniņi</a>
-          <a href="/Konsultacijas">Konsultācijas</a>
-          <a href="/Article2">Atsauksmes</a>
+          <a href="/">
+            <h4>Sākums</h4>
+          </a>
+          <a href="/Trenini">
+            <h4>Individuālie treniņi</h4>
+          </a>
+          <a href="/Konsultacijas">
+            <h4>Konsultācijas</h4>
+          </a>
+          <a href="/Article2">
+            {" "}
+            <h4>Atsauksmes</h4>{" "}
+          </a>
         </div>
         <div className="col-sm-4" style={footerDivStyles}>
           <a
