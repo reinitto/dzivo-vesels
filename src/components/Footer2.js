@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer2.css";
-import profile from "../img/nr_2.jpg";
+import profile from "../img/nr_21.jpg";
 
 const footerDivStyles = {
   display: "flex",
