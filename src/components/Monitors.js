@@ -9,7 +9,6 @@ const headerStyle = {
 export default () => {
   return (
     <ArticleLayout>
-      <h1 />
       <h1 style={headerStyle}>Veselības monitors</h1>
       <img src={monitor} className="img-responsive" alt="" />
       <p>

@@ -1,9 +1,9 @@
 import React from "react";
 import "./Article6.css";
 import img13 from "../../img/13.jpg";
-import graph1 from "../../img/graph1.JPG";
-import graph2 from "../../img/graph2.JPG";
-import graph3 from "../../img/graph3.JPG";
+import graph1 from "../../img/graph1.jpg";
+import graph2 from "../../img/graph2.jpg";
+import graph3 from "../../img/graph3.jpg";
 
 import ArticleLayout from "./ArticleLayout";
 

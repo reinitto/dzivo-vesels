@@ -5,9 +5,7 @@ import ArticleLayout from "./ArticleLayout";
 const headerStyle = {
   textAlign: "center"
 };
-const boldFont = {
-  fontWeight: "bold"
-};
+
 export default () => {
   return (
     <ArticleLayout>

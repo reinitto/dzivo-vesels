@@ -32,7 +32,16 @@ export default () => {
                 Personīgais treneris / Fitnesa konsultants
               </li>
               <li className="list-group-item"> +371 27841853</li>
-              <li className="list-group-item">fitnesakonsultants@inbox.lv</li>
+              <li className="list-group-item">
+                <a
+                  href="mailto:fitnesakonsultants@inbox.lv"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  fitnesakonsultants@inbox.lv
+                </a>
+              </li>
             </ul>
             <p />
           </div>
@@ -44,13 +53,25 @@ export default () => {
           <a href="/Article2">Atsauksmes</a>
         </div>
         <div className="col-sm-4" style={footerDivStyles}>
-          <a href="https://www.facebook.com/sporto.vesels">
+          <a
+            href="https://www.facebook.com/sporto.vesels"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fa fa-facebook color-facebook fa-2x"> </i>
           </a>
-          <a href="https://twitter.com/sporto_vesels">
+          <a
+            href="https://twitter.com/sporto_vesels"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fa fa-twitter color-twitter fa-2x"> </i>
           </a>
-          <a href="mailto:fitnesakonsultants@inbox.lv">
+          <a
+            href="mailto:fitnesakonsultants@inbox.lv"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fa fa-envelope color-gmail fa-2x"> </i>
           </a>
         </div>

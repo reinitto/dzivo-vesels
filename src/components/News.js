@@ -1,16 +1,16 @@
 import React from "react";
 import "./News.css";
-import img10 from "../img/10.jpg";
-import img11 from "../img/11.jpg";
+import img10 from "../img/10s.jpg";
+import img11 from "../img/11s.jpg";
 import monitor from "../img/monitor.jpg";
-import img3 from "../img/3.jpg";
+import img3s from "../img/3s.jpg";
 
-import img12 from "../img/12.jpg";
-import nr3 from "../img/nr_3.JPG";
-import img17 from "../img/17.jpg";
-import img13 from "../img/13.jpg";
-import img15 from "../img/15.jpg";
-import img16 from "../img/16.jpg";
+import img12 from "../img/12s.jpg";
+import nr3 from "../img/nr_3.jpg";
+import img17 from "../img/17s.jpg";
+import img13 from "../img/13s.jpg";
+import img15 from "../img/15s.jpg";
+import img16 from "../img/16s.jpg";
 
 export default () => {
   return (
@@ -48,7 +48,7 @@ export default () => {
                 <div className="col-page col-sm-4 col-md-3">
                   <a href="/Article2" className="fondo-publicacion-home">
                     <div className="img-publicacion-home">
-                      <img className="img-responsive" src={img3} alt="" />
+                      <img className="img-responsive" src={img3s} alt="" />
                     </div>
                     <div className="contenido-publicacion-home">
                       <h3>Atsauksmes</h3>

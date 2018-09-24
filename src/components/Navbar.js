@@ -38,6 +38,7 @@ export default () => {
             </NavItem>
             <NavItem
               eventKey={3}
+              target="_blank"
               href="https://twitter.com/sporto_vesels"
               id="floatdiv2"
             >
@@ -45,6 +46,7 @@ export default () => {
             </NavItem>
             <NavItem
               eventKey={4}
+              target="_blank"
               href="https://www.facebook.com/sporto.vesels"
               id="floatdiv"
             >
@@ -52,6 +54,7 @@ export default () => {
             </NavItem>
             <NavItem
               eventKey={5}
+              target="_blank"
               href="mailto:fitnesakonsultants@inbox.lv"
               id="floatdiv"
             >

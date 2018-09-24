@@ -1,10 +1,6 @@
 import React from "react";
-import img16 from "../../img/16.jpg";
+import img16 from "../../img/16m.jpg";
 import ArticleLayout from "./ArticleLayout";
-
-const boldFont = {
-  fontWeight: "bold"
-};
 
 const headerStyle = {
   textAlign: "center"

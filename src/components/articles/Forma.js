@@ -1,27 +1,14 @@
 import React from "react";
-import img11 from "../../img/11.jpg";
-import img1 from "../../img/1.jpg";
-import img6 from "../../img/6.jpg";
-import img20 from "../../img/20.jpg";
+import img11 from "../../img/11m.jpg";
+import img1 from "../../img/1m.jpg";
+import img6 from "../../img/6m.jpg";
+import img20 from "../../img/20m.jpg";
 import ArticleLayout from "./ArticleLayout";
-
-const boldFont = {
-  fontWeight: "bold"
-};
 
 const headerStyle = {
   textAlign: "center"
 };
 
-const imgStyle = {
-  justifyContent: "space-around",
-  display: "flex",
-  marginBottom: "10px"
-};
-const imgStyle2 = {
-  justifyContent: "space-around",
-  marginBottom: "10px"
-};
 export default () => {
   return (
     <ArticleLayout>
@@ -57,9 +44,7 @@ export default () => {
         formas uzlabošanai ! Pareizi pielietoti, tie dod pat pieckāršu efektu!
         Visiem! Sievietēm un vīriešiem jebkurā vecumā!
       </p>
-      <div className="container-fluid " style={imgStyle}>
-        <img src={img1} style={{ maxHeight: "400px" }} alt="" />
-      </div>
+      <img src={img1} className="img-responsive" alt="" />
       <p>
         {" "}
         <strong>Pirmkārt</strong>

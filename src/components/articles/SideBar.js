@@ -3,8 +3,8 @@ import "../News.css";
 import img3 from "../../img/3.jpg";
 
 import img12 from "../../img/12.jpg";
-import img17 from "../../img/17.jpg";
-import img16 from "../../img/16.jpg";
+import img17 from "../../img/17m.jpg";
+import img16 from "../../img/16m.jpg";
 export default () => {
   return (
     <div>
