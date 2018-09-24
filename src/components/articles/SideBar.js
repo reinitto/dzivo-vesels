@@ -3,7 +3,7 @@ import "../News.css";
 import img3 from "../../img/3s.jpg";
 
 import img12 from "../../img/12s.jpg";
-import img17 from "../../img/17s.jpg";
+import img24 from "../../img/24s.jpg";
 import img16 from "../../img/16s.jpg";
 export default () => {
   return (
@@ -85,7 +85,7 @@ export default () => {
             <div className="hidden-sm col-md-12">
               <a href="/Article5" className="fondo-publicacion-home">
                 <div className="img-publicacion-home">
-                  <img className="img-responsive" src={img17} alt="" />
+                  <img className="img-responsive" src={img24} alt="" />
                 </div>
                 <div className="contenido-publicacion-home">
                   <h3>Tievēšana kā rotaļa</h3>

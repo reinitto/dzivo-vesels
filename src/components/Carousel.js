@@ -4,7 +4,7 @@ import img3 from "../img/3m.jpg";
 import img12 from "../img/12m.jpg";
 import img13 from "../img/13m.jpg";
 import img16 from "../img/16m.jpg";
-import img17m from "../img/17m.jpg";
+import img24m from "../img/24m.jpg";
 
 import "./Carousel.css";
 var Carousel = require("react-bootstrap").Carousel;
@@ -131,7 +131,7 @@ export default () => {
               </Carousel.Item>
 
               <Carousel.Item>
-                <img width="auto" height="auto" alt="900x500" src={img17m} />
+                <img width="auto" height="auto" alt="900x500" src={img24m} />
                 <div className="absolute-div">
                   <Carousel.Caption>
                     <div className="col-md-8 col-sm-12 ">

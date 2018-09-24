@@ -1,5 +1,5 @@
 import React from "react";
-import img17 from "../../img/17m.jpg";
+import img24 from "../../img/24m.jpg";
 
 import ArticleLayout from "./ArticleLayout";
 
@@ -12,7 +12,7 @@ export default () => {
     <ArticleLayout>
       <h1 style={headerStyle}>Tievēšana kā rotaļa</h1>
 
-      <img src={img17} className="img-responsive" alt="" />
+      <img src={img24} className="img-responsive" alt="" />
 
       <p>
         Tievēšana būs kā rotaļa, viegli sasniegsiet iecerēto, jutīsiet enerģijas

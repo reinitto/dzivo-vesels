@@ -4,10 +4,9 @@ import img22s from "../img/22s.jpg";
 import img11 from "../img/11s.jpg";
 import monitor from "../img/monitor.jpg";
 import img3s from "../img/3s.jpg";
-
 import img12 from "../img/12s.jpg";
 import nr3 from "../img/nr_31.jpg";
-import img17 from "../img/17s.jpg";
+import img24s from "../img/24s.jpg";
 import img13 from "../img/13s.jpg";
 import img15 from "../img/15s.jpg";
 import img16 from "../img/16s.jpg";
@@ -105,7 +104,7 @@ export default () => {
                 <div className="hidden-sm col-page col-sm-4 ">
                   <a href="/Article5" className="fondo-publicacion-home">
                     <div className="img-publicacion-home">
-                      <img className="img-responsive" src={img17} alt="" />
+                      <img className="img-responsive" src={img24s} alt="" />
                     </div>
                     <div className="contenido-publicacion-home">
                       <h3>Tievēšana kā rotaļa</h3>
