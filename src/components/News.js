@@ -18,9 +18,6 @@ export default () => {
         <div className="col-md-10 col-md-offset-1">
           <section className="publicaciones-blog-home">
             <div>
-              <h2>
-                Veselības un <b>Sporta raksti</b>
-              </h2>
               <div className="row-page row">
                 <div className="col-page col-sm-8 col-md-6">
                   <a href="/Article1" className="black fondo-publicacion-home">

@@ -19,7 +19,7 @@
   color: white;
   display: table;
   vertical-align: middle;
-  margin: auto;
+  margin: 10px 10px;
   text-align: left;
 }
 
@@ -27,12 +27,16 @@
   color: #035f8c;
   font-size: 3em;
   display: table;
-  vertical-align: middle;
-  margin: auto;
 }
 
 @media screen and (max-width: 768px) {
   .no-show {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .no-show p {
     display: none;
   }
 }

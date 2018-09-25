@@ -5,14 +5,32 @@
   display: none;
 }
 
-/* if screen size gets wider than 1024 */
+/* if screen size gets wider than 768 */
 
 @media screen and (min-width: 768px) {
   #floatdiv {
-    display: block;
+    display: inline-block;
   }
   #floatdiv2 {
-    display: block;
+    display: inline-block;
+  }
+}
+
+.main-title-container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.main-title {
+  text-align: center;
+  color: rgb(2, 111, 137);
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .main-title-container {
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 }
 
@@ -54,8 +72,7 @@ h5 {
 }
 
 .border {
-  background-color: white;
-  background: #ffffff;
+  background-color: #e7e7e7;
   border-color: #026f89;
   border-style: outset;
   overflow: hidden;
@@ -70,7 +87,6 @@ h5 {
 }
 
 .white {
-  background-color: white;
-  border-color: white;
+  background-color: #e7e7e7;
   margin-bottom: 5px;
 }

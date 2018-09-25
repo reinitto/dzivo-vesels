@@ -16,7 +16,7 @@ const footerStyle = {
 
 export default () => {
   return (
-    <footer className="no-display container-fluid ">
+    <footer className="container-fluid ">
       <div className="borderFooter row " style={footerStyle}>
         <div className="col-sm-4 footerDivs ">
           <div
