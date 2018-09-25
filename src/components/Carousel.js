@@ -14,7 +14,7 @@ export default () => {
     <div>
       <div className="container-fluid no-show">
         <div className="row">
-          <div className="col-md-offset-1 col-md-10  ">
+          <div className="col-md-offset-2 col-md-8  ">
             <Carousel>
               <Carousel.Item>
                 <img width="auto" height="auto" alt="900x500" src={img10} />
