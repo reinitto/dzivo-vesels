@@ -87,7 +87,7 @@ export default () => {
 
           <div className="main-title-container">
             <h1 className="main-title">
-              Sporto Vesels <strong>-</strong> <b> Dzīvo Labāk</b>
+              Sporto Vesels <strong>-</strong> <b> Dzīvo Labāk!</b>
             </h1>
           </div>
         </div>
