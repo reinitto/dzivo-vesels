@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import nr_31 from "../img/nr_31.jpg";
 import "./Navbar.css";
+
 var Navbar = require("react-bootstrap").Navbar;
 var Nav = require("react-bootstrap").Nav;
 var NavItem = require("react-bootstrap").NavItem;
@@ -11,6 +13,15 @@ export default () => {
       className="container-fluid border no-wrap"
       style={{ display: "flex", justifyContent: "center" }}
     >
+      <img
+        src={nr_31}
+        className="img-responsive"
+        alt=""
+        style={{
+          maxHeight: "100px",
+          display: "inline-block"
+        }}
+      />
       <Navbar collapseOnSelect className="white">
         <Navbar.Header>
           <Navbar.Brand>
@@ -35,6 +46,9 @@ export default () => {
             </NavItem>
             <NavItem eventKey={3} href="/Konsultacijas">
               <h4>Konsultācijas</h4>
+            </NavItem>
+            <NavItem eventKey={3} href="/Seminari">
+              <h4>Semināri</h4>
             </NavItem>
             <NavItem eventKey={2} href="/About">
               <h4> Par mani</h4>

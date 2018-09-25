@@ -13,7 +13,6 @@ export default () => {
       <h1 style={headerStyle}>Tievēšana kā rotaļa</h1>
 
       <img src={img24} className="img-responsive" alt="" />
-
       <p>
         Tievēšana būs kā rotaļa, viegli sasniegsiet iecerēto, jutīsiet enerģijas
         pieplūdumu, ja jūs ievērosiet dažus vienkāršus, bet svarīgus
