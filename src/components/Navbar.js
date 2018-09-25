@@ -12,20 +12,6 @@ export default () => {
     <div className="container-fluid border" style={{ display: "flex" }}>
       <div className="row">
         <div className="col-xs-4 col-sm-2">
-          <Link to="/">
-            <h4
-              style={{
-                fontWeight: 500,
-                textDecoration: "underline",
-
-                padding: "10px 15px",
-                textAlign: "center"
-              }}
-            >
-              Sporto Vesels <strong> - </strong>{" "}
-              <b style={{ color: "#026f89" }}>Dzīvo Labāk</b>
-            </h4>
-          </Link>
           <img src={nr_31} className="img-responsive" alt="" />{" "}
           <a href="/About">
             <h4
@@ -56,6 +42,9 @@ export default () => {
             </Navbar.Header>
             <Navbar.Collapse>
               <Nav pullRight className=" navbar-right">
+                <NavItem eventKey={1} href="/">
+                  <h4>Sākums</h4>
+                </NavItem>
                 <NavItem eventKey={1} href="/Trenini">
                   <h4>Individuālie treniņi</h4>
                 </NavItem>
@@ -95,10 +84,10 @@ export default () => {
               </Nav>
             </Navbar.Collapse>
           </Navbar>
+
           <div className="main-title-container">
             <h1 className="main-title">
-              Kā paaugstināt darbaspējas, atbrīvoties no liekajiem kilogramiem
-              un uzlabot savu dzīves kvalitāti{" "}
+              Sporto Vesels <strong>-</strong> <b> Dzīvo Labāk</b>
             </h1>
           </div>
         </div>
