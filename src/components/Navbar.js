@@ -9,7 +9,10 @@ export default () => {
     <div className="container-fluid">
       <Navbar collapseOnSelect className="white">
         <Navbar.Header>
-          <Navbar.Brand />
+          <Navbar.Brand>
+            <i className="fab fa-stripe-s color-logo  fa-2x" />
+            <i class="fab fa-viacoin color-logo  fa-2x" />
+          </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>

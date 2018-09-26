@@ -72,6 +72,10 @@
 .color-gmail {
   color: #dd4b39;
 }
+.color-logo {
+  border-color: hsl(192, 97%, 27%);
+  color: #026f89;
+}
 
 h5 {
   color: #026f89;
