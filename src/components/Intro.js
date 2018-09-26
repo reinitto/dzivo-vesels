@@ -8,6 +8,8 @@ export default () => {
       <div className="col-xs-3" style={{ padding: "0 0" }}>
         <a href="/About">
           <img src={profile} alt="" className="img-responsive" />
+          <h4>Normunds Rozenšteins</h4>
+          <p>Personīgais treneris</p>{" "}
         </a>
       </div>
       <div className="col-xs-9">
