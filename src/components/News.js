@@ -26,7 +26,7 @@ export default () => {
                     </div>
                     <div className="contenido-publicacion-principal-home">
                       <h3>Uzsākam treniņus - kas notiek ar svaru ?</h3>
-                      <p>
+                      <p className="contenido-publicacion-home">
                         Kas par svaru pieaug sākumā – vai tie ir muskuļi? Bieži
                         vien iesācējiem ir neliels svara pieaugums pirmajās 2 -
                         3 nedēļās, līdz pat 2 kilogramiem. Vairumā tas ir

@@ -13,10 +13,10 @@
 }
 
 .footerDiv {
-  display: "flex";
-  align-items: "center";
-  justify-content: "space-around";
-  flex-direction: "column";
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
 }
 
 .color-twitter {
@@ -30,11 +30,9 @@
 }
 
 .midDiv {
-  border-width: 2px;
-  border-style: dashed;
   border-top: 0;
   border-bottom: 0;
-  margin: 6px 6px;
+  margin: 6px 15px;
 }
 
 .list-group-item {

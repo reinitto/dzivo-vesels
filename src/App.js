@@ -14,6 +14,7 @@ import Article7 from "./components/articles/Article7";
 import Forma from "./components/articles/Forma";
 import About from "./components/articles/About";
 import Trenini from "./components/articles/Trenini";
+import "./App.css";
 
 class App extends Component {
   componentDidMount() {

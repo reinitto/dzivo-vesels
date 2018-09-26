@@ -21,12 +21,17 @@
   margin-bottom: 40px;
   display: flex;
   text-transform: uppercase;
-  /*align-self: center; */
+  justify-content: center;
 }
 
 .main-title {
   color: rgb(2, 111, 137);
   font-weight: bold;
+}
+.navDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 @media screen and (max-width: 768px) {
   .main-title-container {

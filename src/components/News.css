@@ -112,15 +112,19 @@ body {
   font-weight: 900;
   color: #fff;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 2vw;
 }
 .publicaciones-blog-home
   .fondo-publicacion-home
   .contenido-publicacion-principal-home
   p {
   color: #ffffff;
-  font-size: 16px;
   font-weight: 300;
+}
+@media screen and (min-width: 1550px) {
+  #floatdiv {
+    font-size: 1vw;
+  }
 }
 .publicaciones-blog-home .fondo-publicacion-home .contenido-publicacion-home {
   padding: 0 10px;
@@ -130,7 +134,7 @@ body {
   .contenido-publicacion-home
   h3 {
   font-weight: 900;
-  font-size: 20px;
+  font-size: 1.8vw;
   text-transform: uppercase;
 }
 .publicaciones-blog-home .fondo-publicacion-home .img-publicacion-home {
@@ -233,7 +237,7 @@ body {
     font-weight: 900;
     color: #333;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 24px;
   }
   .publicaciones-blog-home
     .fondo-publicacion-home
@@ -251,5 +255,14 @@ body {
     padding: 20px;
     text-decoration: none;
     border-radius: 3px;
+  }
+
+  .publicaciones-blog-home
+    .fondo-publicacion-home
+    .contenido-publicacion-home
+    h3 {
+    font-weight: 900;
+    font-size: 24px;
+    text-transform: uppercase;
   }
 }

@@ -15,28 +15,21 @@
 }
 
 .carousel-caption p {
-  font-size: 1.5em;
+  font-size: 1.2vw;
   color: white;
   display: table;
   vertical-align: middle;
-  margin: 10px 10px;
   text-align: left;
 }
 
 .carousel-caption h1 {
   color: #035f8c;
-  font-size: 3em;
+  font-size: 2.5vw;
   display: table;
 }
 
 @media screen and (max-width: 768px) {
   .no-show {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .no-show p {
     display: none;
   }
 }
@@ -52,6 +45,7 @@
   display: inline-block;
   margin-bottom: 0;
   margin-top: 0.7em;
+  font-size: 1.5vw;
   font-weight: 600;
   text-align: center;
   white-space: nowrap;

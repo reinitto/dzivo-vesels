@@ -1,13 +1,6 @@
 import React from "react";
 import "./Footer2.css";
-import profile from "../img/nr_21.jpg";
-
-const footerDivStyles = {
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "space-around",
-  flexDirection: "column"
-};
+import profile from "../img/nr_31.jpg";
 
 const footerStyle = {
   display: "flex",
@@ -18,42 +11,55 @@ export default () => {
   return (
     <footer className="container-fluid ">
       <div className="borderFooter row " style={footerStyle}>
-        <div className="col-sm-4 footerDivs ">
-          <div
-            style={{
-              display: "flex"
-            }}
-          >
-            <a href="/about">
-              <img src={profile} alt="" className="img-responsive" />
-            </a>
-            <ul className="list-group">
-              <li className="list-group-item">
-                {" "}
-                <strong>Normunds Rozenšteins</strong>{" "}
-              </li>
-
-              <li className="list-group-item">
-                <strong>Personīgais treneris / Fitnesa konsultants</strong>
-              </li>
-              <li className="list-group-item">
-                <strong> +371 27841853</strong>{" "}
-              </li>
-              <li className="list-group-item">
-                <a
-                  href="mailto:fitnesakonsultants@inbox.lv"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <strong>fitnesakonsultants@inbox.lv</strong>
-                </a>
-              </li>
-            </ul>
-            <p />
-          </div>
+        <div
+          style={{
+            display: "flex",
+            overflow: "hidden",
+            maxWidth: "400px"
+          }}
+        >
+          {" "}
+          <a href="/About">
+            <img src={profile} alt="" className="img-responsive no-display" />
+          </a>
         </div>
-        <div className="col-sm-4 midDiv" style={footerDivStyles}>
+
+        <div>
+          <ul className="list-group">
+            <li className="list-group-item">
+              {" "}
+              <h4>
+                <strong>Normunds Rozenšteins</strong>{" "}
+              </h4>
+            </li>
+
+            <li className="list-group-item">
+              <h4>
+                <strong>Personīgais treneris / Fitnesa konsultants</strong>
+              </h4>
+            </li>
+            <li className="list-group-item">
+              <h4>
+                <i class="fa fa-phone" aria-hidden="true" />
+                <strong> +371 27841853</strong>{" "}
+              </h4>
+            </li>
+            <li className="list-group-item">
+              <a
+                href="mailto:fitnesakonsultants@inbox.lv"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h4>
+                  <i className="fa fa-envelope color-gmail"> </i>
+                  <strong> fitnesakonsultants@inbox.lv</strong>
+                </h4>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div className=" midDiv footerDiv">
           <a href="/">
             <h4>Sākums</h4>
           </a>
@@ -68,7 +74,12 @@ export default () => {
             <h4>Atsauksmes</h4>{" "}
           </a>
         </div>
-        <div className="col-sm-4" style={footerDivStyles}>
+        <div
+          className="footerDiv"
+          style={{
+            marginRight: "5vw"
+          }}
+        >
           <a
             href="https://www.facebook.com/sporto.vesels"
             target="_blank"
@@ -82,13 +93,6 @@ export default () => {
             rel="noopener noreferrer"
           >
             <i className="fa fa-twitter color-twitter fa-2x"> </i>
-          </a>
-          <a
-            href="mailto:fitnesakonsultants@inbox.lv"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fa fa-envelope color-gmail fa-2x"> </i>
           </a>
         </div>
       </div>
