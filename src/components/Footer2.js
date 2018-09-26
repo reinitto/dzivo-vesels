@@ -6,6 +6,9 @@ const footerStyle = {
   display: "flex",
   justifyContent: "space-around"
 };
+const flexGrow = {
+  flexGrow: 1
+};
 
 export default () => {
   return (
@@ -15,16 +18,18 @@ export default () => {
           style={{
             display: "flex",
             overflow: "hidden",
-            maxWidth: "400px"
+            maxWidth: "400px",
+            padding: "0 0",
+            flexGrow: 2
           }}
         >
           {" "}
-          <a href="/About">
-            <img src={profile} alt="" className="img-responsive no-display" />
+          <a href="/About" className="no-display">
+            <img src={profile} alt="" className="img-responsive " />
           </a>
         </div>
 
-        <div>
+        <div style={flexGrow}>
           <ul className="list-group">
             <li className="list-group-item">
               {" "}
@@ -59,7 +64,7 @@ export default () => {
           </ul>
         </div>
 
-        <div className=" midDiv footerDiv">
+        <div className=" midDiv footerDiv" style={flexGrow}>
           <a href="/">
             <h4>Sākums</h4>
           </a>
@@ -77,7 +82,8 @@ export default () => {
         <div
           className="footerDiv"
           style={{
-            marginRight: "5vw"
+            marginRight: "5vw",
+            flexGrow: 1
           }}
         >
           <a

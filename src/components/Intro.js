@@ -5,7 +5,7 @@ import "./Intro.css";
 export default () => {
   return (
     <div className="container-fluid borderStyle">
-      <div className="col-xs-3">
+      <div className="col-xs-3" style={{ padding: "0 0" }}>
         <a href="/About">
           <img src={profile} alt="" className="img-responsive" />
         </a>
